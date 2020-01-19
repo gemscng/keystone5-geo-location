@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
-const fields_1 = require("@keystone-alpha/fields");
-const adapter_mongoose_1 = require("@keystone-alpha/adapter-mongoose");
-const adapter_knex_1 = require("@keystone-alpha/adapter-knex");
+const fields_1 = require("@keystonejs/fields");
+const adapter_mongoose_1 = require("@keystonejs/adapter-mongoose");
+const adapter_knex_1 = require("@keystonejs/adapter-knex");
 // Ref: https://mongoosejs.com/docs/geojson.html
 const pointSchema = new mongoose_1.default.Schema({
     type: {

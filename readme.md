@@ -1,6 +1,6 @@
 ### Packages added
-- @keystone-alpha/adapter-mongoose
-- @keystone-alpha/adapter-knex
-- @keystone-alpha/build-field-types
+- @keystonejs/adapter-mongoose
+- @keystonejs/adapter-knex
+- @keystonejs/build-field-types
 - mongoose
 - inflection

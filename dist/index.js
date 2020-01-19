@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const build_field_types_1 = require("@keystone-alpha/build-field-types");
+const build_field_types_1 = require("@keystonejs/build-field-types");
 const Implementation_1 = require("./Implementation");
 exports.default = {
     type: 'GeoLocation',

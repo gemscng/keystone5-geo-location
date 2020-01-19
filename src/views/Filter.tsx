@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { Input } from '@arch-ui/input';
-import { FilterProps } from '@keystone-alpha/fields/src/types';
+import { FilterProps } from '@keystonejs/fields/src/types';
 
 type Props = FilterProps<string>;
 export default class TextFilterView extends Component<Props> {

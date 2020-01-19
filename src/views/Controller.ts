@@ -1,4 +1,4 @@
-import FieldController from "@keystone-alpha/fields/Controller";
+import FieldController from "@keystonejs/fields/Controller";
 
 export default class GeoLocationController extends FieldController {
   protected path: string;

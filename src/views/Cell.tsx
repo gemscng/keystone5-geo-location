@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { CellProps } from '@keystone-alpha/fields/src/types';
+import { CellProps } from '@keystonejs/fields/src/types';
 
 type Props = CellProps<Boolean>
 

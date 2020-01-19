@@ -733,111 +733,111 @@
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@keystone-alpha/access-control@^3.0.0", "@keystone-alpha/access-control@^3.1.0":
+"@keystonejs/access-control@^3.0.0", "@keystonejs/access-control@^3.1.0":
   version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/access-control/-/access-control-3.1.0.tgz#d6f3a1b3a058d7cb5c62745dd370cf33e8c3263f"
+  resolved "https://registry.yarnpkg.com/@keystonejs/access-control/-/access-control-3.1.0.tgz#d6f3a1b3a058d7cb5c62745dd370cf33e8c3263f"
   integrity sha512-tt4/cIZ4WFEhnTAwwKCPxdr5TtVqHQab0eb6xMQoycuXX4YhN+dae6nGMpXxv3mMSvyirhvpZ+NPIt4k2Pscww==
   dependencies:
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/utils" "^3.1.0"
 
-"@keystone-alpha/adapter-knex@^4.0.11", "@keystone-alpha/adapter-knex@^4.0.9":
+"@keystonejs/adapter-knex@^4.0.11", "@keystonejs/adapter-knex@^4.0.9":
   version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-knex/-/adapter-knex-4.0.11.tgz#d879699f6252c37f5ce9216902975742795f396b"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-knex/-/adapter-knex-4.0.11.tgz#d879699f6252c37f5ce9216902975742795f396b"
   integrity sha512-8Sdtig/OxRJv6qk5D5/UrJq9e+3b8W3Mi1rIiANxxxnWCiQPZqlxsJ3XWcnGX+MKR5LeF23yPmamyVLY6LqtYg==
   dependencies:
-    "@keystone-alpha/fields-auto-increment" "^2.0.1"
-    "@keystone-alpha/keystone" "^15.3.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/fields-auto-increment" "^2.0.1"
+    "@keystonejs/keystone" "^15.3.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/utils" "^3.1.0"
     "@sindresorhus/slugify" "^0.6.0"
     knex "^0.19.0"
     p-settle "^3.1.0"
     pg "^7.10.0"
 
-"@keystone-alpha/adapter-knex@^5.0.0":
+"@keystonejs/adapter-knex@^5.0.0":
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-knex/-/adapter-knex-5.0.0.tgz#a0d8baa18aa1bb019e7d804bc031c955f47e46bb"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-knex/-/adapter-knex-5.0.0.tgz#a0d8baa18aa1bb019e7d804bc031c955f47e46bb"
   integrity sha512-Dk13r4vctEysckdweakScPEBef3UncnyFkEjU1FEZ08iWuqKbHx9XhKJddBfAf5xuNM89dO8rASsplqXI6tuQw==
   dependencies:
-    "@keystone-alpha/fields-auto-increment" "^2.0.3"
-    "@keystone-alpha/keystone" "^15.4.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/fields-auto-increment" "^2.0.3"
+    "@keystonejs/keystone" "^15.4.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/utils" "^3.1.0"
     "@sindresorhus/slugify" "^0.6.0"
     knex "^0.19.0"
     p-settle "^3.1.0"
     pg "^7.10.0"
 
-"@keystone-alpha/adapter-knex@^6.0.2":
+"@keystonejs/adapter-knex@^6.0.2":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-knex/-/adapter-knex-6.0.2.tgz#36307e462276d6e2f5a3748d5f84ece4685c066a"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-knex/-/adapter-knex-6.0.2.tgz#36307e462276d6e2f5a3748d5f84ece4685c066a"
   integrity sha512-83Rd+kZHrIRKStSnCp/rEjAH+19t9ZlUyVgin9Nj0p7sVIGusNKZ/GghhRDjz/Hej6UfVteXNmEP16IziIIPFQ==
   dependencies:
-    "@keystone-alpha/fields-auto-increment" "^2.0.5"
-    "@keystone-alpha/keystone" "^16.1.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/fields-auto-increment" "^2.0.5"
+    "@keystonejs/keystone" "^16.1.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/utils" "^3.1.0"
     "@sindresorhus/slugify" "^0.6.0"
     knex "^0.19.5"
     p-settle "^3.1.0"
     pg "^7.10.0"
 
-"@keystone-alpha/adapter-mongoose@^4.0.6", "@keystone-alpha/adapter-mongoose@^4.0.8":
+"@keystonejs/adapter-mongoose@^4.0.6", "@keystonejs/adapter-mongoose@^4.0.8":
   version "4.0.8"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-mongoose/-/adapter-mongoose-4.0.8.tgz#c793556ef4d7a5e1e247b6a69aa42f5951a0f203"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-mongoose/-/adapter-mongoose-4.0.8.tgz#c793556ef4d7a5e1e247b6a69aa42f5951a0f203"
   integrity sha512-i6yn5Pu5m5KLxVahzWmI4ol8jLYRSaRulEDBbww1QExzrcdf5Wn166LAdMeh1JBK1NsS/RT0PfEDo1hWTgC5Vw==
   dependencies:
-    "@keystone-alpha/fields-mongoid" "^1.1.2"
-    "@keystone-alpha/keystone" "^15.3.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/mongo-join-builder" "^2.0.3"
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/fields-mongoid" "^1.1.2"
+    "@keystonejs/keystone" "^15.3.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/mongo-join-builder" "^2.0.3"
+    "@keystonejs/utils" "^3.1.0"
     "@sindresorhus/slugify" "^0.6.0"
     mongoose "^5.6.5"
     p-settle "^3.1.0"
 
-"@keystone-alpha/adapter-mongoose@^5.0.0":
+"@keystonejs/adapter-mongoose@^5.0.0":
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-mongoose/-/adapter-mongoose-5.0.0.tgz#ccec99d7f8fb4e3cf6a7d5a2c3c3a53fd7d8d2be"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-mongoose/-/adapter-mongoose-5.0.0.tgz#ccec99d7f8fb4e3cf6a7d5a2c3c3a53fd7d8d2be"
   integrity sha512-HfCG5soWHuPPuoJpQEqixlTwZZBrrpoBmh/7iepJgCFGXOUKuOHhm/8RxAGYyabphjzW4zxMkf9VfVYKRgop5g==
   dependencies:
-    "@keystone-alpha/fields-mongoid" "^1.1.3"
-    "@keystone-alpha/keystone" "^15.3.1"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/mongo-join-builder" "^3.0.0"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/fields-mongoid" "^1.1.3"
+    "@keystonejs/keystone" "^15.3.1"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/mongo-join-builder" "^3.0.0"
+    "@keystonejs/utils" "^3.2.0"
     "@sindresorhus/slugify" "^0.6.0"
     lodash.omitby "^4.6.0"
     mongoose "^5.6.5"
     p-settle "^3.1.0"
     pluralize "^7.0.0"
 
-"@keystone-alpha/adapter-mongoose@^6.0.1":
+"@keystonejs/adapter-mongoose@^6.0.1":
   version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/adapter-mongoose/-/adapter-mongoose-6.0.1.tgz#de8fe519e55685a8e884335312f23ee22e35691e"
+  resolved "https://registry.yarnpkg.com/@keystonejs/adapter-mongoose/-/adapter-mongoose-6.0.1.tgz#de8fe519e55685a8e884335312f23ee22e35691e"
   integrity sha512-tCEKk7o6uWnTukU0EBLFYVwfMve+Gqr6FmdrgrMqHYK4lmZwrMQjKl/528B//0YjFhZzyYF5XLWZBhJ0nwIoZw==
   dependencies:
-    "@keystone-alpha/fields-mongoid" "^1.1.6"
-    "@keystone-alpha/keystone" "^16.1.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/mongo-join-builder" "^4.0.0"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/fields-mongoid" "^1.1.6"
+    "@keystonejs/keystone" "^16.1.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/mongo-join-builder" "^4.0.0"
+    "@keystonejs/utils" "^3.2.0"
     "@sindresorhus/slugify" "^0.6.0"
     lodash.omitby "^4.6.0"
     mongoose "^5.6.5"
     p-settle "^3.1.0"
     pluralize "^7.0.0"
 
-"@keystone-alpha/app-graphql-playground@^1.0.1":
+"@keystonejs/app-graphql-playground@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/app-graphql-playground/-/app-graphql-playground-1.0.1.tgz#079dbf47fa973bf9e7c2da4da0feebddfa1bbadf"
+  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql-playground/-/app-graphql-playground-1.0.1.tgz#079dbf47fa973bf9e7c2da4da0feebddfa1bbadf"
   integrity sha512-6MLxjZ0mE2OVlJgQvNk13DtFrn7N33Kwb/zgOKGwYroE4dsYPiCabLftT4W5xn3Ou7WhbsZPbVTLB8QurYDD7A==
   dependencies:
     "@apollographql/graphql-playground-html" "^1.6.24"
     "@apollographql/graphql-playground-react" "^1.7.31"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/session" "^3.0.1"
-    "@keystone-alpha/utils" "^3.0.2"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/session" "^3.0.1"
+    "@keystonejs/utils" "^3.0.2"
     body-parser "^1.18.2"
     chalk "^2.4.2"
     "falsey" "^1.0.0"
@@ -845,15 +845,15 @@
     object-hash "^1.3.1"
     terminal-link "^1.3.0"
 
-"@keystone-alpha/app-graphql@^8.2.0", "@keystone-alpha/app-graphql@^8.2.1":
+"@keystonejs/app-graphql@^8.2.0", "@keystonejs/app-graphql@^8.2.1":
   version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/app-graphql/-/app-graphql-8.2.1.tgz#f572787710059d222aede292af711c826af6ad25"
+  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql/-/app-graphql-8.2.1.tgz#f572787710059d222aede292af711c826af6ad25"
   integrity sha512-skfmSLc0B5A6N1dwmQ2Xo1zCkkyzsVddtj2EmQD7V2qITOVq9lFN+0+ypjDOnozqacR283mfolgOYpT3nuB1lw==
   dependencies:
-    "@keystone-alpha/app-graphql-playground" "^1.0.1"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/session" "^3.0.2"
-    "@keystone-alpha/utils" "^3.0.2"
+    "@keystonejs/app-graphql-playground" "^1.0.1"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/session" "^3.0.2"
+    "@keystonejs/utils" "^3.0.2"
     apollo-errors "^1.9.0"
     apollo-server-express "^2.9.1"
     cuid "^2.1.6"
@@ -863,9 +863,9 @@
     serialize-error "^3.0.0"
     stack-utils "^1.0.2"
 
-"@keystone-alpha/build-field-types@^1.0.5", "@keystone-alpha/build-field-types@^1.0.6":
+"@keystonejs/build-field-types@^1.0.5", "@keystonejs/build-field-types@^1.0.6":
   version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/build-field-types/-/build-field-types-1.0.6.tgz#aea9ea74223c74c70f45b565b6f3cbd8f02d0d69"
+  resolved "https://registry.yarnpkg.com/@keystonejs/build-field-types/-/build-field-types-1.0.6.tgz#aea9ea74223c74c70f45b565b6f3cbd8f02d0d69"
   integrity sha512-S2/cnNFd5/YwjebD/8wCK+TNXQYSk7hw9ZbQ6mwjO6yCTcUM6qYq9T4eYBjr7g2AdrFvTzxtykp7vXhPc5d/2w==
   dependencies:
     "@babel/core" "^7.4.3"
@@ -904,9 +904,9 @@
     source-map-support "^0.5.12"
     terser "^3.14.1"
 
-"@keystone-alpha/field-content@^3.1.1", "@keystone-alpha/field-content@^3.1.2", "@keystone-alpha/field-content@^3.1.4":
+"@keystonejs/field-content@^3.1.1", "@keystonejs/field-content@^3.1.2", "@keystonejs/field-content@^3.1.4":
   version "3.1.4"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/field-content/-/field-content-3.1.4.tgz#fa848a5100b9e00e37330576ae08b28963418f00"
+  resolved "https://registry.yarnpkg.com/@keystonejs/field-content/-/field-content-3.1.4.tgz#fa848a5100b9e00e37330576ae08b28963418f00"
   integrity sha512-r8K9hJaXJhT9RUq6tDWkYpzDduMbDvisLJtrBPx5THL2Hwt72YFGI9W3VTUJC1/FNM1MVewLNYKY69ZLfcKGgg==
   dependencies:
     "@arch-ui/color-utils" "^0.0.1"
@@ -919,9 +919,9 @@
     "@arch-ui/typography" "^0.0.8"
     "@babel/runtime" "^7.4.3"
     "@emotion/core" "^10.0.14"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/fields" "^15.0.0"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/fields" "^15.0.0"
+    "@keystonejs/utils" "^3.2.0"
     apply-ref "^0.2.0"
     get-selection-range "^0.1.0"
     image-extensions "^1.1.0"
@@ -937,31 +937,31 @@
     slate-drop-or-paste-images "^0.9.1"
     slate-react "^0.22.4"
 
-"@keystone-alpha/fields-auto-increment@^2.0.1", "@keystone-alpha/fields-auto-increment@^2.0.3", "@keystone-alpha/fields-auto-increment@^2.0.5":
+"@keystonejs/fields-auto-increment@^2.0.1", "@keystonejs/fields-auto-increment@^2.0.3", "@keystonejs/fields-auto-increment@^2.0.5":
   version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/fields-auto-increment/-/fields-auto-increment-2.0.5.tgz#270d92137a501402f5c1b315b3679bb38f6b5b04"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields-auto-increment/-/fields-auto-increment-2.0.5.tgz#270d92137a501402f5c1b315b3679bb38f6b5b04"
   integrity sha512-bnBQHTJuo6/VSyXU/zLpDwDw1dWyc0+/BjS+qN5YJnG/JtrSHpnc1eALTtQGmDXqjclMqfboIyP6GQetAVdIrg==
   dependencies:
     "@babel/runtime" "^7.4.3"
-    "@keystone-alpha/adapter-knex" "^6.0.2"
-    "@keystone-alpha/fields" "^15.0.0"
+    "@keystonejs/adapter-knex" "^6.0.2"
+    "@keystonejs/fields" "^15.0.0"
 
-"@keystone-alpha/fields-mongoid@^1.1.2", "@keystone-alpha/fields-mongoid@^1.1.3", "@keystone-alpha/fields-mongoid@^1.1.6":
+"@keystonejs/fields-mongoid@^1.1.2", "@keystonejs/fields-mongoid@^1.1.3", "@keystonejs/fields-mongoid@^1.1.6":
   version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/fields-mongoid/-/fields-mongoid-1.1.6.tgz#5f599d06bfd88ed1a29b223099f28551e800e743"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields-mongoid/-/fields-mongoid-1.1.6.tgz#5f599d06bfd88ed1a29b223099f28551e800e743"
   integrity sha512-Ng7BgTSnFxwPuHBlUPXZoK3s5W8ybLBe/zFcCzCI9hDQ9Yi3u3C+lkT65UsF7/0qmT9BFvU0XDUtfwvFBo8hyQ==
   dependencies:
     "@arch-ui/input" "^0.1.0"
     "@babel/runtime" "^7.4.3"
-    "@keystone-alpha/adapter-knex" "^6.0.2"
-    "@keystone-alpha/adapter-mongoose" "^6.0.1"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/fields" "^15.0.0"
+    "@keystonejs/adapter-knex" "^6.0.2"
+    "@keystonejs/adapter-mongoose" "^6.0.1"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/fields" "^15.0.0"
     react "^16.8.6"
 
-"@keystone-alpha/fields@^12.0.0":
+"@keystonejs/fields@^12.0.0":
   version "12.3.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/fields/-/fields-12.3.0.tgz#7682909e87df52012e1f1ac7f75efc71ad6a3d54"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields/-/fields-12.3.0.tgz#7682909e87df52012e1f1ac7f75efc71ad6a3d54"
   integrity sha512-ccT95cQ0hWm2Ao7u0rdORjavOwlSnVKhlynrwbEf2Fw2glzHZNFleFjSlFAMHQctR6ZecuQaIfI9aA3BzmloTA==
   dependencies:
     "@arch-ui/alert" "^0.0.7"
@@ -984,12 +984,12 @@
     "@arch-ui/typography" "^0.0.8"
     "@babel/runtime" "^7.4.3"
     "@emotion/core" "^10.0.14"
-    "@keystone-alpha/access-control" "^3.0.0"
-    "@keystone-alpha/adapter-knex" "^4.0.11"
-    "@keystone-alpha/adapter-mongoose" "^4.0.8"
-    "@keystone-alpha/build-field-types" "^1.0.5"
-    "@keystone-alpha/field-content" "^3.1.1"
-    "@keystone-alpha/utils" "^3.1.0"
+    "@keystonejs/access-control" "^3.0.0"
+    "@keystonejs/adapter-knex" "^4.0.11"
+    "@keystonejs/adapter-mongoose" "^4.0.8"
+    "@keystonejs/build-field-types" "^1.0.5"
+    "@keystonejs/field-content" "^3.1.1"
+    "@keystonejs/utils" "^3.1.0"
     "@sindresorhus/slugify" "^0.6.0"
     apollo-errors "^1.9.0"
     bcrypt "^3.0.6"
@@ -1024,9 +1024,9 @@
     slate-react "^0.22.4"
     unsplash-js "^5.0.0"
 
-"@keystone-alpha/fields@^13.1.0":
+"@keystonejs/fields@^13.1.0":
   version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/fields/-/fields-13.1.0.tgz#312b64d8d851c9512a44fbae474a00b40d40cf53"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields/-/fields-13.1.0.tgz#312b64d8d851c9512a44fbae474a00b40d40cf53"
   integrity sha512-PSm0fhj2GawyBNGd2XeMGoTuvw7a/3n17Q6dS96ZqcZNM6d0nY0UJ9sp8D6U4o3DX7TUOHeIQUi5QSR7eFuGIA==
   dependencies:
     "@arch-ui/alert" "^0.0.7"
@@ -1049,12 +1049,12 @@
     "@arch-ui/typography" "^0.0.8"
     "@babel/runtime" "^7.4.3"
     "@emotion/core" "^10.0.14"
-    "@keystone-alpha/access-control" "^3.0.0"
-    "@keystone-alpha/adapter-knex" "^5.0.0"
-    "@keystone-alpha/adapter-mongoose" "^5.0.0"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/field-content" "^3.1.2"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/access-control" "^3.0.0"
+    "@keystonejs/adapter-knex" "^5.0.0"
+    "@keystonejs/adapter-mongoose" "^5.0.0"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/field-content" "^3.1.2"
+    "@keystonejs/utils" "^3.2.0"
     "@sindresorhus/slugify" "^0.6.0"
     apollo-errors "^1.9.0"
     bcrypt "^3.0.6"
@@ -1090,9 +1090,9 @@
     slate-react "^0.22.4"
     unsplash-js "^5.0.0"
 
-"@keystone-alpha/fields@^15.0.0":
+"@keystonejs/fields@^15.0.0":
   version "15.0.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/fields/-/fields-15.0.0.tgz#acb027868484723418a6865844064406db55dc11"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields/-/fields-15.0.0.tgz#acb027868484723418a6865844064406db55dc11"
   integrity sha512-P2Fd7MQqM8Plct6B2cwM3YTNLGz+cwUGsYl4RGrzspWatvBtPnLW/VH7a/k7rI1bINsGBdd4o2Bi1WwzJrNwrA==
   dependencies:
     "@arch-ui/alert" "^0.0.7"
@@ -1115,12 +1115,12 @@
     "@arch-ui/typography" "^0.0.8"
     "@babel/runtime" "^7.4.3"
     "@emotion/core" "^10.0.14"
-    "@keystone-alpha/access-control" "^3.0.0"
-    "@keystone-alpha/adapter-knex" "^6.0.2"
-    "@keystone-alpha/adapter-mongoose" "^6.0.1"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/field-content" "^3.1.4"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/access-control" "^3.0.0"
+    "@keystonejs/adapter-knex" "^6.0.2"
+    "@keystonejs/adapter-mongoose" "^6.0.1"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/field-content" "^3.1.4"
+    "@keystonejs/utils" "^3.2.0"
     "@sindresorhus/slugify" "^0.6.0"
     apollo-errors "^1.9.0"
     bcrypt "^3.0.6"
@@ -1156,18 +1156,18 @@
     slate-react "^0.22.4"
     unsplash-js "^5.0.0"
 
-"@keystone-alpha/keystone@^15.3.0", "@keystone-alpha/keystone@^15.3.1", "@keystone-alpha/keystone@^15.4.0":
+"@keystonejs/keystone@^15.3.0", "@keystonejs/keystone@^15.3.1", "@keystonejs/keystone@^15.4.0":
   version "15.4.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/keystone/-/keystone-15.4.1.tgz#ffa6f22de9b952efdbea947d55db29a11f00ae04"
+  resolved "https://registry.yarnpkg.com/@keystonejs/keystone/-/keystone-15.4.1.tgz#ffa6f22de9b952efdbea947d55db29a11f00ae04"
   integrity sha512-S0T7NrbM1Lp7GPPgJ4WCiT8wlV0EXwUOp54Z5J0Tmits2OC9g7oI+qLPDhzkYNEjwI8W3mQI3TyNxngUyNHxgA==
   dependencies:
-    "@keystone-alpha/access-control" "^3.1.0"
-    "@keystone-alpha/app-graphql" "^8.2.0"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/fields" "^13.1.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/session" "^3.0.2"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/access-control" "^3.1.0"
+    "@keystonejs/app-graphql" "^8.2.0"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/fields" "^13.1.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/session" "^3.0.2"
+    "@keystonejs/utils" "^3.2.0"
     apollo-errors "^1.9.0"
     arg "^4.1.1"
     chalk "^2.4.2"
@@ -1193,18 +1193,18 @@
     pluralize "^7.0.0"
     terminal-link "^1.3.0"
 
-"@keystone-alpha/keystone@^16.1.0":
+"@keystonejs/keystone@^16.1.0":
   version "16.1.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/keystone/-/keystone-16.1.0.tgz#a15a5e8b0097420b78c784ceab7c3b60f6ee3c67"
+  resolved "https://registry.yarnpkg.com/@keystonejs/keystone/-/keystone-16.1.0.tgz#a15a5e8b0097420b78c784ceab7c3b60f6ee3c67"
   integrity sha512-81q5xCD5C0e3FJ8PMAZotbAqiEcTwzNITl1Deo5AZwJVq+nMZLfjnFgeB72UDHtEpH6dVeRTh/IhwFXHm0j86Q==
   dependencies:
-    "@keystone-alpha/access-control" "^3.1.0"
-    "@keystone-alpha/app-graphql" "^8.2.1"
-    "@keystone-alpha/build-field-types" "^1.0.6"
-    "@keystone-alpha/fields" "^15.0.0"
-    "@keystone-alpha/logger" "^2.0.1"
-    "@keystone-alpha/session" "^3.0.2"
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/access-control" "^3.1.0"
+    "@keystonejs/app-graphql" "^8.2.1"
+    "@keystonejs/build-field-types" "^1.0.6"
+    "@keystonejs/fields" "^15.0.0"
+    "@keystonejs/logger" "^2.0.1"
+    "@keystonejs/session" "^3.0.2"
+    "@keystonejs/utils" "^3.2.0"
     apollo-errors "^1.9.0"
     arg "^4.1.1"
     chalk "^2.4.2"
@@ -1230,44 +1230,44 @@
     pluralize "^7.0.0"
     terminal-link "^1.3.0"
 
-"@keystone-alpha/logger@^2.0.1":
+"@keystonejs/logger@^2.0.1":
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/logger/-/logger-2.0.1.tgz#20c378048b6f623e7898d2783c07203d40ad0009"
+  resolved "https://registry.yarnpkg.com/@keystonejs/logger/-/logger-2.0.1.tgz#20c378048b6f623e7898d2783c07203d40ad0009"
   integrity sha512-ZdC38jWA+BrATf0RfQZ3F1xJmbu67dcZHr6qSYuq3qeIT2RWZZidI7gJ3lu//oZYy7Y0nFpFE1TDRBloJWOFng==
   dependencies:
     "falsey" "^1.0.0"
     fast-memoize "^2.4.0"
     pino "5.11.1"
 
-"@keystone-alpha/mongo-join-builder@^2.0.3":
+"@keystonejs/mongo-join-builder@^2.0.3":
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/mongo-join-builder/-/mongo-join-builder-2.0.3.tgz#ee53e0b0840d1da18c9da78d109b3d891c1f7be7"
+  resolved "https://registry.yarnpkg.com/@keystonejs/mongo-join-builder/-/mongo-join-builder-2.0.3.tgz#ee53e0b0840d1da18c9da78d109b3d891c1f7be7"
   integrity sha512-F0ewYvhfqnRJBetOtB09+4VtXCmQqPM3r0k/66AlRS2f7QA2TvhwdPvlMn+DeWV0zZHfoRinMQT72hZGq3bLzA==
   dependencies:
-    "@keystone-alpha/utils" "^3.0.2"
+    "@keystonejs/utils" "^3.0.2"
     cuid "^2.1.6"
 
-"@keystone-alpha/mongo-join-builder@^3.0.0":
+"@keystonejs/mongo-join-builder@^3.0.0":
   version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/mongo-join-builder/-/mongo-join-builder-3.0.1.tgz#bd9cf7a5631ef69d7045820361e10e519c3efbb2"
+  resolved "https://registry.yarnpkg.com/@keystonejs/mongo-join-builder/-/mongo-join-builder-3.0.1.tgz#bd9cf7a5631ef69d7045820361e10e519c3efbb2"
   integrity sha512-uDYB5LeZ13fagV5quGQfKg76TuiRdt98NdgoWFnk9SwxPGnKU2oPu4PeFYb5+QJtxSqvqiC6kxXjfa5luG2p/g==
   dependencies:
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/utils" "^3.2.0"
     cuid "^2.1.6"
     lodash.omitby "^4.6.0"
 
-"@keystone-alpha/mongo-join-builder@^4.0.0":
+"@keystonejs/mongo-join-builder@^4.0.0":
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/mongo-join-builder/-/mongo-join-builder-4.0.0.tgz#3af7a4939b6ea5eeafb511431a18492659b895f1"
+  resolved "https://registry.yarnpkg.com/@keystonejs/mongo-join-builder/-/mongo-join-builder-4.0.0.tgz#3af7a4939b6ea5eeafb511431a18492659b895f1"
   integrity sha512-VcPJC297SyoxAAmht8vPvxOkKiADTmuqM+dvM3ma2vR6zcsdVviW483Hc+gkFOzdVRuJqFe2s2N/n8ItbTAUoA==
   dependencies:
-    "@keystone-alpha/utils" "^3.2.0"
+    "@keystonejs/utils" "^3.2.0"
     cuid "^2.1.6"
     lodash.omitby "^4.6.0"
 
-"@keystone-alpha/session@^3.0.1", "@keystone-alpha/session@^3.0.2":
+"@keystonejs/session@^3.0.1", "@keystonejs/session@^3.0.2":
   version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/session/-/session-3.0.3.tgz#bbd5e573372f07053a50386e60b2a70d0a7146d5"
+  resolved "https://registry.yarnpkg.com/@keystonejs/session/-/session-3.0.3.tgz#bbd5e573372f07053a50386e60b2a70d0a7146d5"
   integrity sha512-WCUsJRc0Ry34JHkru+ea2WMExSNOgHlDlW/d7+dt3GiOK0k+IGWfxyBfrt6MKzzrwbG+Vt3wSQZ8xjaLeeC7Iw==
   dependencies:
     body-parser "^1.18.2"
@@ -1276,9 +1276,9 @@
     express "^4.17.1"
     express-session "^1.16.2"
 
-"@keystone-alpha/utils@^3.0.2", "@keystone-alpha/utils@^3.1.0", "@keystone-alpha/utils@^3.2.0":
+"@keystonejs/utils@^3.0.2", "@keystonejs/utils@^3.1.0", "@keystonejs/utils@^3.2.0":
   version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@keystone-alpha/utils/-/utils-3.2.0.tgz#8abdbbfb0168edd3f789df3c6e748da5ecaf9d6f"
+  resolved "https://registry.yarnpkg.com/@keystonejs/utils/-/utils-3.2.0.tgz#8abdbbfb0168edd3f789df3c6e748da5ecaf9d6f"
   integrity sha512-AqFN9OszI9tJhBmin09X5NENb1dOQI2jo9ROtfBaYO7B3q3yN3iCIfSdOgDGwbnuiS8hK41DIb9rtiw+naohrQ==
   dependencies:
     "@babel/runtime" "^7.4.3"

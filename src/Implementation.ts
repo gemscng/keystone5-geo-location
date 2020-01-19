@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import { Implementation } from '@keystone-alpha/fields';
-import { MongooseFieldAdapter } from '@keystone-alpha/adapter-mongoose';
-import { KnexFieldAdapter } from '@keystone-alpha/adapter-knex';
+import { Implementation } from '@keystonejs/fields';
+import { MongooseFieldAdapter } from '@keystonejs/adapter-mongoose';
+import { KnexFieldAdapter } from '@keystonejs/adapter-knex';
 
 // Ref: https://mongoosejs.com/docs/geojson.html
 const pointSchema = new mongoose.Schema({
