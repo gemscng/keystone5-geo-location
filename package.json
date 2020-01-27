@@ -1,6 +1,6 @@
 {
   "name": "keystone5-geo-location",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Geolocation for keystone 5",
   "main": "dist/index.js",
   "scripts": {
